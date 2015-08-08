@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150808033100) do
+ActiveRecord::Schema.define(version: 20150808165339) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,13 @@ ActiveRecord::Schema.define(version: 20150808033100) do
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
+
+  create_table "oauths", force: :cascade do |t|
+    t.string "token",  null: false
+    t.string "secret", null: false
+  end
+
+  add_index "oauths", ["token"], name: "index_oauths_on_token", using: :btree
 
   create_table "stocks", force: :cascade do |t|
     t.string   "ticker"
@@ -60,8 +67,14 @@ ActiveRecord::Schema.define(version: 20150808033100) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "username"
-    t.string "password"
+    t.string   "uid",             null: false
+    t.string   "handle",          null: false
+    t.integer  "risk_preference"
+    t.integer  "age"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
+
+  add_index "users", ["uid"], name: "index_users_on_uid", using: :btree
 
 end
