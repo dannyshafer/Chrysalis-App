@@ -1,0 +1,3 @@
+class BlabsController < ApplicationController
+  
+end
