@@ -13227,3 +13227,1184 @@ Processing by UsersController#update as JSON
   [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
 Completed 200 OK in 43ms (Views: 0.3ms | ActiveRecord: 3.5ms)
   [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users"
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 12:13:53 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:13:53 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 41ms (Views: 1.5ms | ActiveRecord: 12.5ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:15:01 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:21:33 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (2.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 130ms (Views: 110.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:22:27 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:22:39 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:22:41 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:22:44 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:22:56 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 12:25:56 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:25:56 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 15ms (Views: 3.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:25:59 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:26:50 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:26:52 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:27:49 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:28:19 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:28:46 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:30:42 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 97ms (Views: 5.2ms | ActiveRecord: 1.1ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 12:30:43 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 12:30:43 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.2ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (104.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:31:01 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.5ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 12:31:02 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 12:31:18 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 12:31:19 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 12:31:19 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (73.6ms)
+
+
+Started GET "/request_token" for 127.0.0.1 at 2015-08-08 13:28:48 -0700
+Processing by TokensController#request_token as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "oauths" ("token", "secret") VALUES ($1, $2) RETURNING "id"[0m  [["token", "UPr_tQAAAAAAg9boAAABTw8AXUo"], ["secret", "5zNGiXS2Z3Ak2PTQUCO52rEPOog5SGtX"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to https://api.twitter.com/oauth/authenticate?oauth_callback=http%3A%2F%2F127.0.0.1%3A3000%2Faccess_token&oauth_token=UPr_tQAAAAAAg9boAAABTw8AXUo
+Completed 302 Found in 187ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/access_token?oauth_token=UPr_tQAAAAAAg9boAAABTw8AXUo&oauth_verifier=KSTE405w1D7ErRWjemXl8JJz3uaO3OIA" for 127.0.0.1 at 2015-08-08 13:28:49 -0700
+Processing by TokensController#access_token as HTML
+  Parameters: {"oauth_token"=>"UPr_tQAAAAAAg9boAAABTw8AXUo", "oauth_verifier"=>"KSTE405w1D7ErRWjemXl8JJz3uaO3OIA"}
+  [1m[36mOauth Load (0.7ms)[0m  [1mSELECT  "oauths".* FROM "oauths" WHERE "oauths"."token" = $1 LIMIT 1[0m  [["token", "UPr_tQAAAAAAg9boAAABTw8AXUo"]]
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Redirected to http://localhost:8080?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIzNDA0ODM0NjkiLCJleHAiOjE0MzkxNTIxMzB9.wlo8IDKuNMpkyGvYRNgntqN6oyItVduYklpkNGboVdk
+Completed 302 Found in 946ms (ActiveRecord: 1.2ms)
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 13:28:51 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.2ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:28:51 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (2.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 6ms (Views: 1.1ms | ActiveRecord: 2.2ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 13:28:52 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:28:52 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (74.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:28:53 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:28:54 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.0ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (54.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:28:55 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:35:47 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (2.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 28ms (Views: 5.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:35:49 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.3ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.0ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.4ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (53.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:35:50 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:35:51 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (52.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:35:52 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:36:13 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:36:14 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (49.9ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:36:15 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:36:16 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (48.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:36:17 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:36:18 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (2.2ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (57.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:36:18 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:36:19 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.4ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.6ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (44.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:36:20 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 13:41:38 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:41:38 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 40ms (Views: 1.3ms | ActiveRecord: 17.5ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:41:59 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:42:48 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 13:42:50 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:42:50 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (1.1ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.4ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (59.5ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:42:51 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:43:05 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (57.8ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:43:05 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:43:06 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.5ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (63.9ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:43:07 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:43:34 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (52.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:43:35 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:44:07 -0700
+
+SyntaxError (/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+            age: @current_user.age}
+               ^
+/Users/ryanau/Desktop/DBCstuff/phase-3/Chrysalis-App/app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end):
+  app/controllers/users_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  app/controllers/users_controller.rb:27: syntax error, unexpected '}', expecting keyword_end
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.2ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (45.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:44:08 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:44:28 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 39ms (Views: 2.5ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:44:29 -0700
+Processing by UsersController#profile_info as JSON
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `risk_preference' for nil:NilClass):
+  app/controllers/users_controller.rb:26:in `profile_info'
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.9ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (51.1ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:44:29 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+  [1m[36mUser Load (1.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:45:50 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:45:54 -0700
+Processing by UsersController#profile_info as JSON
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `risk_preference' for nil:NilClass):
+  app/controllers/users_controller.rb:27:in `profile_info'
+
+
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.8ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /Users/ryanau/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (51.8ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:45:55 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:49:39 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 37ms (Views: 2.4ms | ActiveRecord: 6.1ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:49:41 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:50:51 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:50:52 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 13:50:56 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>58, "age"=>52}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  UPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["risk_preference", 58], ["updated_at", "2015-08-08 20:50:56.968908"], ["id", 1]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:51:01 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:02 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:06 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>58, "age"=>18}}
+  [1m[35mUser Load (3.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "age" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["age", 18], ["updated_at", "2015-08-08 20:51:06.577080"], ["id", 1]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 98ms (Views: 0.4ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:51:09 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:10 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:51:30 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:34 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.8ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:39 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>58, "age"=>34}}
+  [1m[35mUser Load (1.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  UPDATE "users" SET "age" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["age", 34], ["updated_at", "2015-08-08 20:51:39.068149"], ["id", 1]]
+  [1m[36m (7.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 11.3ms)
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 13:51:43 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:51:43 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 25ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:51:44 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/request_token" for 127.0.0.1 at 2015-08-08 13:51:59 -0700
+Processing by TokensController#request_token as HTML
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "oauths" ("token", "secret") VALUES ($1, $2) RETURNING "id"[0m  [["token", "1qKe0gAAAAAAg9boAAABTw8VloA"], ["secret", "Gu9FAqo8dujdr07u3PdOr78fVlmgz94L"]]
+  [1m[35m (6.3ms)[0m  COMMIT
+Redirected to https://api.twitter.com/oauth/authenticate?oauth_callback=http%3A%2F%2F127.0.0.1%3A3000%2Faccess_token&oauth_token=1qKe0gAAAAAAg9boAAABTw8VloA
+Completed 302 Found in 218ms (ActiveRecord: 10.2ms)
+
+
+Started GET "/access_token?oauth_token=1qKe0gAAAAAAg9boAAABTw8VloA&oauth_verifier=UaKy3KwhugbZbX3vXHfl74yS2YGYTmdx" for 127.0.0.1 at 2015-08-08 13:52:00 -0700
+Processing by TokensController#access_token as HTML
+  Parameters: {"oauth_token"=>"1qKe0gAAAAAAg9boAAABTw8VloA", "oauth_verifier"=>"UaKy3KwhugbZbX3vXHfl74yS2YGYTmdx"}
+  [1m[36mOauth Load (1.0ms)[0m  [1mSELECT  "oauths".* FROM "oauths" WHERE "oauths"."token" = $1 LIMIT 1[0m  [["token", "1qKe0gAAAAAAg9boAAABTw8VloA"]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Redirected to http://localhost:8080?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIzNDA0ODM0NjkiLCJleHAiOjE0MzkxNTM1MjF9.hHaZruvZ-PsEUaam6Ond6G-pyuk-omA89Zrh0m4v2pA
+Completed 302 Found in 657ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:52:01 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:52:04 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 13:52:17 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>91, "age"=>21}}
+  [1m[36mUser Load (2.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "age" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["risk_preference", 91], ["age", 21], ["updated_at", "2015-08-08 20:52:17.816548"], ["id", 1]]
+  [1m[35m (6.1ms)[0m  COMMIT
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 9.4ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 13:52:21 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:52:22 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 13:53:52 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:53:52 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:53:57 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:59:12 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:59:14 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (3.8ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 13:59:18 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 13:59:21 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>91, "age"=>21}}
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (4.7ms)[0m  COMMIT
+Completed 200 OK in 27ms (Views: 0.4ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:00:12 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 56ms (Views: 0.8ms | ActiveRecord: 34.5ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:14 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:16 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>91, "age"=>21}}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:23 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>41, "age"=>21}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["risk_preference", 41], ["updated_at", "2015-08-08 21:00:23.228478"], ["id", 1]]
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:00:27 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:28 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:00:54 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:55 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:59 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>81, "age"=>47}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "risk_preference" = $1, "age" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["risk_preference", 81], ["age", 47], ["updated_at", "2015-08-08 21:00:59.728528"], ["id", 1]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:00:59 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:01:29 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:01:30 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:01:35 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>14, "age"=>47}}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["risk_preference", 14], ["updated_at", "2015-08-08 21:01:35.109298"], ["id", 1]]
+  [1m[35m (9.4ms)[0m  COMMIT
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 10.5ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:01:35 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:01:41 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:01:42 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started OPTIONS "/current_user" for 127.0.0.1 at 2015-08-08 14:02:38 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"current_user"}
+  Rendered text template (0.1ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:02:38 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:02:39 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (2.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:02:42 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:03:05 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:07 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:03:16 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 2.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:18 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:03:25 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:26 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:03:36 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:37 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:45 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>14, "age"=>47}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 7ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:45 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started OPTIONS "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:52 -0700
+Processing by ApplicationController#preflight as */*
+  Parameters: {"all"=>"users/profile"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:52 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>14, "age"=>47}}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 6ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:52 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:59 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>38, "age"=>47}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["risk_preference", 38], ["updated_at", "2015-08-08 21:03:59.657087"], ["id", 1]]
+  [1m[35m (9.4ms)[0m  COMMIT
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:03:59 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:04:04 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.1ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:04:07 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>72, "age"=>47}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["risk_preference", 72], ["updated_at", "2015-08-08 21:04:07.641759"], ["id", 1]]
+  [1m[35m (8.4ms)[0m  COMMIT
+Completed 200 OK in 13ms (Views: 0.3ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:04:07 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:05:22 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:24 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:26 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>72, "age"=>47}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:30 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>72, "age"=>47}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:31 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 1.2ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:34 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>53, "age"=>47}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["risk_preference", 53], ["updated_at", "2015-08-08 21:05:34.943933"], ["id", 1]]
+  [1m[35m (9.9ms)[0m  COMMIT
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 10.7ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:49 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.5ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:51 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>53, "age"=>47}}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:05:54 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:55 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started PUT "/users/profile" for 127.0.0.1 at 2015-08-08 14:05:59 -0700
+Processing by UsersController#update as JSON
+  Parameters: {"info"=>{"risk_preference"=>74, "age"=>30}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "risk_preference" = $1, "age" = $2, "updated_at" = $3 WHERE "users"."id" = $4[0m  [["risk_preference", 74], ["age", 30], ["updated_at", "2015-08-08 21:05:59.664565"], ["id", 1]]
+  [1m[35m (6.2ms)[0m  COMMIT
+Completed 200 OK in 11ms (Views: 0.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/request_token" for 127.0.0.1 at 2015-08-08 14:06:44 -0700
+Processing by TokensController#request_token as HTML
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "oauths" ("token", "secret") VALUES ($1, $2) RETURNING "id"  [["token", "0bRsMQAAAAAAg9boAAABTw8jGh4"], ["secret", "ufVBWT5wbir3rU6vO3NTlhPrBAzHAZrY"]]
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+Redirected to https://api.twitter.com/oauth/authenticate?oauth_callback=http%3A%2F%2F127.0.0.1%3A3000%2Faccess_token&oauth_token=0bRsMQAAAAAAg9boAAABTw8jGh4
+Completed 302 Found in 180ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/access_token?oauth_token=0bRsMQAAAAAAg9boAAABTw8jGh4&oauth_verifier=tHZzxY4xR3hSV4lpbTkpju8ZdEbSHuWe" for 127.0.0.1 at 2015-08-08 14:06:46 -0700
+Processing by TokensController#access_token as HTML
+  Parameters: {"oauth_token"=>"0bRsMQAAAAAAg9boAAABTw8jGh4", "oauth_verifier"=>"tHZzxY4xR3hSV4lpbTkpju8ZdEbSHuWe"}
+  [1m[35mOauth Load (0.4ms)[0m  SELECT  "oauths".* FROM "oauths" WHERE "oauths"."token" = $1 LIMIT 1  [["token", "0bRsMQAAAAAAg9boAAABTw8jGh4"]]
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Redirected to http://localhost:8080?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIzNDA0ODM0NjkiLCJleHAiOjE0MzkxNTQ0MDd9.qfy53YoWg4ln0OZHLNWtE8PQG-Gz1sXZLkUmrX_ulKI
+Completed 302 Found in 814ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:06:47 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/profile" for 127.0.0.1 at 2015-08-08 14:06:49 -0700
+Processing by UsersController#profile_info as JSON
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1[0m  [["uid", "340483469"]]
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/current_user" for 127.0.0.1 at 2015-08-08 14:06:59 -0700
+Processing by ApplicationController#current_user as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."uid" = $1 LIMIT 1  [["uid", "340483469"]]
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
