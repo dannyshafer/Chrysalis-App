@@ -7,3 +7,6 @@ gem 'rails-api'
 gem 'puma'
 gem 'pg'
 gem 'dotenv'
+
+gem 'oauth'
+gem 'jwt'

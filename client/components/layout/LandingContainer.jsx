@@ -1,5 +1,11 @@
 var React = require('react');
 var Reqwest = require('reqwest');
+var Slider = require('rc-slider');
+
+function onChange(v){
+  console.log(v);
+}
+
 
 var LandingContainer = React.createClass({
   getInitialState: function() {
@@ -29,6 +35,7 @@ var LandingContainer = React.createClass({
       <div>
         <button onClick={this.writeBlabToAPI}>Add User</button>
         <h1>{this.state.counter}</h1>
+        <Slider onChange={onChange}/>
       </div>
       );
   }
