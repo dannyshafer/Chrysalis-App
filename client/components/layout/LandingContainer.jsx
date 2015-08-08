@@ -1,4 +1,5 @@
-var React = require('react')
+var React = require('react');
+var Reqwest = require('reqwest');
 
 var LandingContainer = React.createClass({
   getInitialState: function() {
@@ -14,9 +15,21 @@ var LandingContainer = React.createClass({
       this.setState({counter: users});
     }.bind(this));
   },
+
+  writeBlabToAPI: function() {
+      this.props.addUserAPI('post', this.props.origin + '/users', function(data) {
+
+        this.setState({counter: data});
+      }.bind(this));
+    },
+
+
   render: function(){
     return(
-      <h1>{this.state.counter}</h1>
+      <div>
+        <button onClick={this.writeBlabToAPI}>Add User</button>
+        <h1>{this.state.counter}</h1>
+      </div>
       );
   }
 });
