@@ -9,7 +9,10 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :create]
   put 'users/profile', to: 'users#update'
   get 'users/profile', to: 'users#profile_info'
-  # get '*path', to: 'home#index'
-  # root         to: 'home#index'
+  
+  get '*path', to: 'home#index'
+  root         to: 'home#index'
+
+  match '*all', to: 'application#index', via: [:get]
 
 end

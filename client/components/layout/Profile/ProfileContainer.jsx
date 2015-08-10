@@ -53,7 +53,7 @@ var ProfileContainer = React.createClass({
   },
 
   render: function(){
-    if (this.state.age != 0 && this.state.risk_preference != 0) {
+    if (this.state.age != 0) {
       return (
         <div>
           <h1>Your Profile</h1>
@@ -65,7 +65,7 @@ var ProfileContainer = React.createClass({
                 <br />
                 <label for="risk_preference">Risk Preference: {this.state.risk_preference}</label>
                 <br />
-                <Slider defaultValue={this.state.risk_preference} onChange={this.handleRiskSliderMove} />
+                <Slider defaultValue={this.state.risk_preference} min={0} max={100} onChange={this.handleRiskSliderMove} />
                 <br />
                 <label for="age">Age: {this.state.age}</label>
                 <br />
