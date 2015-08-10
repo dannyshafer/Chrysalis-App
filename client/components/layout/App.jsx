@@ -1,6 +1,5 @@
 var React = require('react');
 var Reqwest = require('reqwest');
-var ProfileContainer = require('./Profile/ProfileContainer.jsx');
 var Menu = require('./Menu.jsx');
 var Router = require('react-router');
 var Uri = require('jsuri');
@@ -8,9 +7,8 @@ var RouteHandler = Router.RouteHandler;
 
 var App = React.createClass({
   getDefaultProps: function() {
-    //changed this to prevent crazy reloading
-    return {origin: 'http://localhost:3000'};
-  },
+      return {origin: process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : ''};
+    },
   getInitialState: function() {
     return {
       showMenu: false,

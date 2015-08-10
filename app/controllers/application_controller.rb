@@ -2,6 +2,10 @@ class ApplicationController < ActionController::API
   before_action :allow_cross_origin_requests, if: proc { Rails.env.development? }
   before_action :authenticate_request, only: [:current_user]
 
+  def index
+    render file: 'public/index.html'
+  end
+
   def preflight
     render nothing: true
   end

@@ -12,6 +12,7 @@ var Menu = React.createClass({
     if (this.props.signedIn) {
       var signingLink = <li><span onClick={this.handleSignOutLink}>Sign Out</span></li>;
       var userProfileLink = <li><Link to="users">{this.props.currentUser}</Link></li>;
+      var userStrategyLink = <li><Link to="strategy">Strategy</Link></li>;
     } else {
       var signingLink = <li><a href={this.props.origin + '/request_token'}>Sign In</a></li>;
     }
@@ -24,6 +25,7 @@ var Menu = React.createClass({
             <span className="pure-menu-heading">Chrysalis</span>
             <ul>
               {userProfileLink}
+              {userStrategyLink}
               <li><Link to="about">About</Link></li>
               {signingLink}
             </ul>

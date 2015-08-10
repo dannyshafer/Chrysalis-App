@@ -6,3 +6,85 @@ button.pure-button {border: 1px solid #0078E7; border-radius: 4px; margin-left: 
 ul {list-style: none; margin: 0; padding: 0;}
 a, a:focus, a:active {outline: none;}
 .thin {font-weight: 200;}
+
+/*landing page*/
+.home-page {
+	text-align: center;
+	color: white;
+	width: 100%;
+	position: absolute;
+	top: 35%;
+}
+
+#big {
+	font-family: 'cyntho_proregular', sans-serif;
+	font-size: 103px;
+	letter-spacing: 5px;
+	line-height: 100px;
+	font-weight: lighter;
+}
+
+#small {
+	font-family: 'cyntho_proregular', sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	letter-spacing: 5px;
+}
+
+/* -------------------video------------ */
+.container {
+  width: auto;
+}
+
+.header-container {
+  width: 100%;
+  height: 400px;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  padding: 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  -webkit-filter: brightness(30%); 
+
+}
+
+/* background image */
+#back-image {
+  position: fixed;
+  zoom: 30%;
+  top: 50%;
+  left: 43%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+/*  opacity: 0.8;*/
+  -webkit-filter: brightness(80%); 
+
+}
